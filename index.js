@@ -9,5 +9,16 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module",
   },
-  rules: {},
+  rules: {
+    "prettier/prettier": [
+      "error",
+      (module.exports = {
+        trailingComma: "es5",
+        semi: true,
+        singleQuote: true,
+        useTabs: true,
+        printWidth: 80,
+      }),
+    ],
+  },
 };

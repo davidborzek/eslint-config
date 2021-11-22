@@ -1,6 +1,6 @@
 {
   "name": "@davidborzek/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A eslint config for my typescript projects.",
   "license": "MIT",
   "main": "index.js",
