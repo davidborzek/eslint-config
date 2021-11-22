@@ -1,0 +1,33 @@
+{
+  "name": "@davidborzek/eslint-config",
+  "version": "1.0.0",
+  "description": "A eslint config for my typescript projects.",
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "typescript": "^4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidborzek/eslint-config.git"
+  },
+  "files": [
+    "README.md",
+    "index.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "coding",
+    "rules",
+    "style"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0"
+  }
+}
